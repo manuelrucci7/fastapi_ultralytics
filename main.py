@@ -8,12 +8,12 @@ import numpy as np
 # FastApi app
 app = FastAPI()
 
-# Agent
+# Agent fd
 a = Agent()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello sd dsads manuelsdadsad"}
+    return {"message": "dsad dsadsa dsadsa manuel"}
 
 @app.post("/focus")
 async def upload_image(file: UploadFile = File(...)):
