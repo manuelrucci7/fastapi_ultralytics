@@ -5,6 +5,7 @@ from PIL import Image
 import io
 import numpy as np
 
+# FastApi app
 app = FastAPI()
 
 a = Agent()
